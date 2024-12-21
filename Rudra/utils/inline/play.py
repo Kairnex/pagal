@@ -35,23 +35,23 @@ def stream_markup_timer(_, chat_id, played, dur):
     if 0 < umm <= 10:
         bar = "✦ᴘɪᴋᴜ✦—————————"
     elif 10 < umm < 20:
-        bar = "—✦ᴘɪᴋᴜ✦————————"
+        bar = "—✦ᴊᴀᴀᴛ✦————————"
     elif 20 <= umm < 30:
         bar = "——✦ᴘɪᴋᴜ✦———————"
     elif 30 <= umm < 40:
-        bar = "———✦ᴘɪᴋᴜ✦——————"
+        bar = "———✦ᴊᴀᴀᴛ✦——————"
     elif 40 <= umm < 50:
         bar = "————✦ᴘɪᴋᴜ✦—————"
     elif 50 <= umm < 60:
-        bar = "—————✦ᴘɪᴋᴜ✦————"
+        bar = "—————✦ᴊᴀᴀᴛ✦————"
     elif 60 <= umm < 70:
         bar = "——————✦ᴘɪᴋᴜ✦———"
     elif 70 <= umm < 80:
-        bar = "———————✦ᴘɪᴋᴜ✦——"
+        bar = "———————✦ᴊᴀᴀᴛ✦——"
     elif 80 <= umm < 95:
         bar = "————————✦ᴘɪᴋᴜ✦—"
     else:
-        bar = "—————————✦ᴘɪᴋᴜ✦"
+        bar = "—————————✦ᴊᴀᴀᴛ✦"
     buttons = [
         [
             InlineKeyboardButton(
