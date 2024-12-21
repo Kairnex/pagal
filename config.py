@@ -12,13 +12,13 @@ API_HASH = getenv("API_HASH")
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
 # Add Owner Username without @ 
-OWNER_USERNAME = getenv("OWNER_USERNAME","ll_SCARECROW_ll")
+OWNER_USERNAME = getenv("OWNER_USERNAME","SARKAR_X_CHEAT")
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME" , "Hydra_music_x_bot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "HINATA_VC_BOT")
 # Don't Add style font 
-BOT_NAME = getenv("BOT_NAME" , "˹sɪᴢʜᴏᴏ˼ ✘ ˹ᴍᴜsɪᴄ˼")
+BOT_NAME = getenv("BOT_NAME" , "˹ʜɪɴᴀᴛᴀ˼ ✘ ˹ᴍᴜsɪᴄ˼ ♪ ⁽ᴶᴬᴬᵀ⁾")
 #get Your Assistant User name
-ASSUSERNAME = getenv("ASSUSERNAME" , "Sizhoo_Music_Assistant")
+ASSUSERNAME = getenv("ASSUSERNAME" , "HlNATA_ASSISTANT")
 EVALOP = list(map(int, getenv("EVALOP", "7176027733").split()))
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
@@ -39,27 +39,27 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
    "UPSTREAM_REPO",
-   "https://github.com/pagal4206/pagal",
+   "https://github.com/pagal4206/pagal,
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
    "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/HoT_DP_ChaNNeL")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/ll_GANGSTERS_ll")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Mat_Dek_Bura_Man_Jye_Ga")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Mat_Dek_Bura_Man_Jye_Ga")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 
 
 # Get this credentials from https://developer.spotify.com/dashboard
-SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "19609edb1b9f4ed7be0c8c1342039362")
-SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "409e31d3ddd64af08cfcc3b0f064fcbe")
+SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
+SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
 
 
 # Maximum limit for fetching playlist's track from youtube, spotify, apple links.
-PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", 50))
+PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", 25))
 
 
 # Telegram audio and video file size limit (in bytes)
@@ -118,4 +118,4 @@ if SUPPORT_CHAT:
    if not re.match("(?:http|https)://", SUPPORT_CHAT):
        raise SystemExit(
            "[ERROR] - Your SUPPORT_CHAT url is wrong. Please ensure that it starts with https://"
-       )
+)
