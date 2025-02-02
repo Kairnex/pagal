@@ -15,7 +15,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🗡️ 𝐎ᴡɴᴇʀ 🗡️", url=f"https://t.me/SARKAR_X_CHEAT"
+                        "🗡️ 𝐎ᴡɴᴇʀ 🗡️", url=f"https://t.me/Nijuko_bot"
                     )],
             ]
         ),
@@ -31,7 +31,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🗡️ 𝐎ᴡɴᴇʀ 🗡️", url=f"https://t.me/SARKAR_X_CHEAT"
+                        "🗡️ 𝐎ᴡɴᴇʀ 🗡️", url=f"https://t.me/Nijuko_bot"
                     )],
             ]
         ),
@@ -47,7 +47,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🗡️ 𝐎ᴡɴᴇʀ 🗡️", url=f"https://t.me/SARKAR_X_CHEAT"
+                        "🗡️ 𝐎ᴡɴᴇʀ 🗡️", url=f"https://t.me/Nijuko_bot"
                     )],
             ]
         ),
